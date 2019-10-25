@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1509496422 source:c:\otherdisks\learning\test_gui\snake_3d\main.cpp
+	<irrlicht.h>
+	<iostream>
+
+1509498939 source:c:\otherdisks\learning\test_gui\snake_3d\src\main.cpp
+	"SnakeApp.h"
+
+1514007145 c:\otherdisks\learning\test_gui\snake_3d\include\snakeapp.h
+	<irrlicht.h>
+	"KeyEventReceiver.h"
+
+1509669489 source:c:\otherdisks\learning\test_gui\snake_3d\src\snakeapp.cpp
+	<iostream>
+	"Apple.h"
+	"SnakeApp.h"
+	"Snake.h"
+	"Wall.h"
+
+1509573110 source:c:\otherdisks\learning\test_gui\snake_3d\src\eventreceiver.cpp
+	"EventReceiver.h"
+
+1509573143 c:\otherdisks\learning\test_gui\snake_3d\include\eventreceiver.h
+	<irrlicht.h>
+
+1509602996 source:c:\otherdisks\learning\test_gui\snake_3d\src\keyeventreceiver.cpp
+	"KeyEventReceiver.h"
+
+1509600715 c:\otherdisks\learning\test_gui\snake_3d\include\keyeventreceiver.h
+	<irrlicht.h>
+
+1509573819 source:c:\otherdisks\learning\test_gui\snake_3d\src\mouseeventreceiver.cpp
+	"MouseEventReceiver.h"
+
+1509573585 c:\otherdisks\learning\test_gui\snake_3d\include\mouseeventreceiver.h
+	<irrlicht.h>
+
+1509588520 source:c:\otherdisks\learning\test_gui\snake_3d\src\cubicshape.cpp
+	"CubicShape.h"
+
+1509650898 c:\otherdisks\learning\test_gui\snake_3d\include\cubicshape.h
+	<irrlicht.h>
+	<utility>
+	"ISceneNodeUniquePointer.h"
+
+1509585928 source:c:\otherdisks\learning\test_gui\snake_3d\src\imeshscenenodepointer.cpp
+	"IMeshSceneNodePointer.h"
+
+1509585990 c:\otherdisks\learning\test_gui\snake_3d\include\imeshscenenodepointer.h
+	<irrlicht.h>
+
+1509657027 source:c:\otherdisks\learning\test_gui\snake_3d\src\snake.cpp
+	<ctime>
+	<cmath>
+	<cstdlib>
+	<random>
+	<stdexcept>
+	"Snake.h"
+	<cassert>
+	<iostream>
+	"vectorExt.h"
+
+1509656907 c:\otherdisks\learning\test_gui\snake_3d\include\snake.h
+	<cmath>
+	<chrono>
+	<deque>
+	<irrlicht.h>
+	<random>
+	"CubicShape.h"
+	"KeyEventReceiver.h"
+
+1509647385 source:c:\otherdisks\learning\test_gui\snake_3d\src\iscenenodeuniquepointerwithcolor.cpp
+	"ISceneNodeUniquePointerWithColor.h"
+
+1509647385 c:\otherdisks\learning\test_gui\snake_3d\include\iscenenodeuniquepointerwithcolor.h
+
+1509617847 source:c:\otherdisks\learning\test_gui\snake_3d\src\wall.cpp
+	"Wall.h"
+
+1509616542 c:\otherdisks\learning\test_gui\snake_3d\include\wall.h
+	<irrlicht.h>
+	"CubicShape.h"
+
+1509646117 source:c:\otherdisks\learning\test_gui\snake_3d\src\iscenenodeuniquepointer.cpp
+	"ISceneNodeUniquePointer.h"
+
+1509646517 c:\otherdisks\learning\test_gui\snake_3d\include\iscenenodeuniquepointer.h
+	<irrlicht.h>
+	<memory>
+	<utility>
+
+1509656395 source:c:\otherdisks\learning\test_gui\snake_3d\src\apple.cpp
+	"Apple.h"
+
+1509656395 c:\otherdisks\learning\test_gui\snake_3d\include\apple.h
+	<irrlicht.h>
+	"Snake.h"
+	"SphericalShape.h"
+
+1509650898 c:\otherdisks\learning\test_gui\snake_3d\include\sphericalshape.h
+	<irrlicht.h>
+	<utility>
+	"ISceneNodeUniquePointer.h"
+
+1509655933 c:\otherdisks\learning\test_gui\snake_3d\include\vectorext.h
+	<iostream>
+	<vector3d.h>
+
+1509667083 source:c:\otherdisks\learning\test_gui\snake_3d\resource.rc
+
+1509670426 source:c:\otherdisks\learning\test_gui\snake_3d\src\camera.cpp
+	"Camera.h"
+
+1514006233 c:\otherdisks\learning\test_gui\snake_3d\include\camera.h
+	<irrlicht.h>
+	<utility>
+	"ISceneNodeUniquePointer.h"
+

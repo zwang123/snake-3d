@@ -1,0 +1,2 @@
+#include "ISceneNodeUniquePointerWithColor.h"
+

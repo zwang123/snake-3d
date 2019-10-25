@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="snake_3d" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_compiler_with_irr" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/snake_3d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_with_irr_dbg" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="cmd /c copy C:\Users\Zhi\Downloads\irrlicht-1.8.4\bin\Win32-gcc\x86_64\Irrlicht.dll bin\Debug\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/snake_3d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler_with_irr_64" />
+				<Option projectCompilerOptionsRelation="-1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<Compiler>
+					<Add directory="include" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="cmd /c copy C:\Users\Zhi\Downloads\irrlicht-1.8.4\bin\Win32-gcc\x86_64\Irrlicht.dll bin\Release\" />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\libstdc++-6.dll&quot; bin\Release\' />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\libwinpthread-1.dll&quot; bin\Release\' />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\x86_64-6.1.0-release-posix-seh-rt_v5-rev0\mingw64\bin\libgcc_s_seh-1.dll&quot; bin\Release\' />
+				</ExtraCommands>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+			<Target title="Release32">
+				<Option output="bin/Release32/snake_3d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release32/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_compiler_with_irr_32" />
+				<Option projectCompilerOptionsRelation="-1" />
+				<Option projectLinkerOptionsRelation="-1" />
+				<Option projectIncludeDirsRelation="-1" />
+				<Option projectLibDirsRelation="-1" />
+				<Compiler>
+					<Add directory="include" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="cmd /c copy C:\Users\Zhi\Downloads\irrlicht-1.8.4\bin\Win32-gcc\Irrlicht.dll bin\Release32\" />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\i686-6.1.0-release-posix-dwarf-rt_v5-rev0\mingw32\bin\libstdc++-6.dll&quot; bin\Release32\' />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\i686-6.1.0-release-posix-dwarf-rt_v5-rev0\mingw32\bin\libwinpthread-1.dll&quot; bin\Release32\' />
+					<Add after='cmd /c copy &quot;C:\Users\Zhi\Downloads\i686-6.1.0-release-posix-dwarf-rt_v5-rev0\mingw32\bin\libgcc_s_seh-1.dll&quot; bin\Release32\' />
+				</ExtraCommands>
+				<MakeCommands>
+					<Build command="" />
+					<CompileFile command="" />
+					<Clean command="" />
+					<DistClean command="" />
+					<AskRebuildNeeded command="" />
+					<SilentBuild command=" &gt; $(CMD_NULL)" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Apple.h" />
+		<Unit filename="include/Camera.h" />
+		<Unit filename="include/CubicShape.h" />
+		<Unit filename="include/ISceneNodeUniquePointer.h" />
+		<Unit filename="include/KeyEventReceiver.h" />
+		<Unit filename="include/Snake.h" />
+		<Unit filename="include/SnakeApp.h" />
+		<Unit filename="include/SphericalShape.h" />
+		<Unit filename="include/Wall.h" />
+		<Unit filename="include/vectorExt.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="src/Apple.cpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/ISceneNodeUniquePointer.cpp" />
+		<Unit filename="src/KeyEventReceiver.cpp" />
+		<Unit filename="src/Snake.cpp" />
+		<Unit filename="src/SnakeApp.cpp" />
+		<Unit filename="src/Wall.cpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
